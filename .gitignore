@@ -17,6 +17,10 @@ hs_err_pid*
 /output/
 /bin/
 /scenarios/equil/output/*
+/src/main/java/org/activitysim/data/*
+/R/data/*
+/scenarios/slc-1k/facility_ids.csv
+/scenarios/slc-1k/hhcoord.csv
 
 /.idea/
 *.iml
