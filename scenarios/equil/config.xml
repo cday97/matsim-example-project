@@ -25,7 +25,7 @@
 		<!-- "start/endTime" of MobSim (00:00:00 == take earliest activity time/ run as long as active vehicles exist) -->
 		<param name="startTime" value="00:00:00" />
 		<param name="endTime" value="00:00:00" />
-	
+
 		<param name = "snapshotperiod"	value = "00:00:00"/> <!-- 00:00:00 means NO snapshot writing -->
 	</module>
 
@@ -36,7 +36,7 @@
 		<param name="lateArrival" value="-18" />
 		<param name="earlyDeparture" value="-0" />
 		<param name="performing" value="+6" />
-		<param name="traveling" value="-6" />
+		<!-- <param name="traveling" value="-6" /> -->
 		<param name="waiting" value="-0" />
 		<parameterset type="activityParams" >
 			<param name="activityType"            value="h" /> <!-- home -->
@@ -53,7 +53,7 @@
 			<param name="closingTime"     value="18:00:00" />
 		</parameterset>
 	</module>
-	
+
 	<module name="strategy">
 		<param name="maxAgentPlanMemorySize" value="5" /> <!-- 0 means unlimited -->
 

@@ -45,7 +45,7 @@ public class ShapeAnalysis {
            var plan = persons.getSelectedPlan();
            var activities = TripStructureUtils.getActivities(plan, TripStructureUtils.StageActivityHandling.ExcludeStageActivities);
            var trips = TripStructureUtils.getTrips(plan);
-                //another way to do teh activities thing
+                //another way to do the activities thing
                 //for(var element : plan.getPlanElements()) {
                 //    if (element instanceof Activity) {var activity = (Activity)element;}
                 //    }

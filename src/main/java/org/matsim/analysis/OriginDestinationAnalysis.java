@@ -28,13 +28,13 @@ public class OriginDestinationAnalysis {
 
     public static void main(String[] args) {
 
-        var features = ShapeFileReader.getAllFeatures("C:\\Users\\Janekdererste\\Downloads\\Bezirke_-_Berlin-shp\\Berlin_Bezirke.shp");
+        var features = ShapeFileReader.getAllFeatures("D:\\Users\\chris\\Documents\\CSDSchool\\MatSimClass\\classwork\\Bezirke_-_Berlin-shp\\Berlin_Bezirke.shp");
 
         var fromGeometry = getGeometry(fromBezirk, features);
         var toGeometry = getGeometry(toBezirk, features);
 
-        var population = PopulationUtils.readPopulation("C:\\Users\\Janekdererste\\Downloads\\matsim class\\matsim class\\5.5.x-1pct\\berlin-v5.5-1pct.output_plans.xml.gz");
-        var network = NetworkUtils.readNetwork("C:\\Users\\Janekdererste\\Downloads\\matsim class\\matsim class\\5.5.x-1pct\\berlin-v5.5-1pct.output_network.xml.gz");
+        var population = PopulationUtils.readPopulation("D:\\Users\\chris\\Documents\\CSDSchool\\MatSimClass\\classwork\\5.5.x-1pct\\5.5.x-1pct\\berlin-v5.5-1pct.output_plans.xml");
+        var network = NetworkUtils.readNetwork("D:\\Users\\chris\\Documents\\CSDSchool\\MatSimClass\\classwork\\5.5.x-1pct\\5.5.x-1pct\\berlin-v5.5-1pct.output_network.xml");
 
         int counter = 0;
 

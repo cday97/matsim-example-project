@@ -18,7 +18,8 @@ public class RunMainModeAnalysis {
         var manager = EventsUtils.createEventsManager();
         var handler = new MainModeHandler();
         manager.addHandler(handler);
-        EventsUtils.readEvents(manager, "C:\\Users\\Janekdererste\\Downloads\\berlin-v5.5-1pct.output_events.xml.gz");
+        EventsUtils.readEvents(manager, "D:\\Users\\chris\\Documents\\CSDSchool\\MatSimClass\\classwork\\5.5.x-1pct\\5.5.x-1pct\\berlin-v5.5-1pct.output_events.xml.gz");
+
 
         var personTrips = handler.getPersonTrips();
         var modes = personTrips.values().stream()
@@ -29,7 +30,7 @@ public class RunMainModeAnalysis {
                 .mapToDouble(d -> d)
                 .sum();
 
-        try (var writer = Files.newBufferedWriter(Paths.get("C:\\Users\\Janekdererste\\Desktop\\modes.csv")); var printer = CSVFormat.DEFAULT.withDelimiter(',').withHeader("Mode", "Count", "Share").print(writer)) {
+        try (var writer = Files.newBufferedWriter(Paths.get("D:\\Users\\chris\\Documents\\CSDSchool\\MatSimClass\\classwork\\modes.csv")); var printer = CSVFormat.DEFAULT.withDelimiter(',').withHeader("Mode", "Count", "Share").print(writer)) {
 
             for (var entry : modes.entrySet()) {
                 printer.printRecord(entry.getKey(), entry.getValue(), entry.getValue() / totalTrips);
