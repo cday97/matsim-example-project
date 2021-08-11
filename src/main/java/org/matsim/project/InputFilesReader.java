@@ -42,7 +42,7 @@ public class InputFilesReader {
         scenario.getConfig().global().setCoordinateSystem("EPSG:26912");
         InputFilesReader reader = new InputFilesReader(scenario);
         String scenarioPath = "scenarios/slc-1k/";
-        String outputFileName = "slc_plans_1k.xml.gz";
+        String outputFileName = "slc_plans_1k.xml";
 
         File personsFile = new File(scenarioPath + "persons.csv");
         File tripsFile = new File(scenarioPath + "trips.csv");
