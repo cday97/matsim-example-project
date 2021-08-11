@@ -186,15 +186,15 @@ public class ActivitySimTripsReader {
         } else if(leg_mode.matches("DRIVEALONEFREE|SHARED2FREE|SHARED3FREE")){
             return mode.car;
         } else if(leg_mode.matches("DRIVE_COM|DRIVE_EXP|DRIVE_LOC|DRIVE_LRF")){
-            return "drive_transit";
+            return mode.pt;
         } else if (leg_mode.matches("WALK_COM|WALK_EXP|WALK_LOC|WALK_LRF")) {
-            return "walk_transit";
+            return mode.pt;
         }
         else if(leg_mode.matches("TNC_SINGLE|TAXI")){
-            return "ride_hail";
+            return mode.ride;
         }
         else if (leg_mode.matches("TNC_SHARED")){
-            return "ride_hail_pooled";
+            return mode.ride;
         }
         else{
             return "we messed up";
