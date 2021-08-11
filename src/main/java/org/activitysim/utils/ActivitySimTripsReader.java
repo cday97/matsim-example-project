@@ -50,7 +50,7 @@ public class ActivitySimTripsReader {
             CSVReader reader = CSVUtils.createCSVReader(tripsFile.toString());
             String[] header = reader.readNext();
             Map<String, Integer> col = CSVUtils.getIndices(header,
-                    new String[]{"person_id", "primary_purpose", "purpose", "destination", "origin", "depart", "trip_mode"}, // mandatory columns
+                    new String[]{"person_id", "purpose", "destination", "origin", "depart", "trip_mode"}, // mandatory columns
                     new String[]{"household_id"} // optional columns
                     );
 
@@ -97,16 +97,13 @@ public class ActivitySimTripsReader {
                     prevPersonId = personId;
                     // Get time of departure for this trip and add randomness
                     time = Double.valueOf(nextLine[col.get("depart")]);
-                    depTime = time*3600 + r.nextDouble()*3600;//adds a random number within 60 min
+                    depTime = time * 3600 + r.nextDouble() * 3600;//adds a random number within 60 min
                     previousTime = 0.0;
 
                 }
-
                 
                 Double timeDiff = depTime - previousTime;
                 previousTime = depTime;
-                String prim_purpose = nextLine[col.get("primary_purpose")];
-
 
                 // Handle origin side
                 // Is this the first trip of the day?
@@ -115,7 +112,6 @@ public class ActivitySimTripsReader {
                     Coord home = scenario.getActivityFacilities().getFacilities().get(homeId).getCoord();
                     homeActivity1.setEndTime(depTime);
                     homeActivity1.setCoord(home);
-                    homeActivity1.getAttributes().putAttribute("primary_purpose",prim_purpose);
                     plan.addActivity(homeActivity1);
                 }
                 else { // if not, then there is an existing activity that we need to find. maybe?
@@ -154,35 +150,16 @@ public class ActivitySimTripsReader {
                     Activity homeActivity2 = pf.createActivityFromActivityFacilityId("Home", homeId);
                     Coord home = scenario.getActivityFacilities().getFacilities().get(homeId).getCoord();
                     homeActivity2.setCoord(home);
-                    homeActivity2.getAttributes().putAttribute("primary_purpose",prim_purpose);
                     plan.addActivity(homeActivity2);
                     prevDestId = destId;
                 }
-//                else if(timeDiff < 30*60 ) { // if travel time is impossible then put it at the same place
-//
-//                    ActivityFacility nextPlace = getFacilityinZone(prevDestId);
-//                    Activity otherActivity = pf.createActivityFromActivityFacilityId(purpose, nextPlace.getId());
-//                    Coord nextCoord = scenario.getActivityFacilities().getFacilities().get(nextPlace.getId()).getCoord();
-//                    otherActivity.setCoord(nextCoord);
-//                    plan.addActivity(otherActivity);
-//
-//                    prevDestId = destId;
-//                }
+
                 else {
                     ActivityFacility nextPlace = getFacilityinZone(destId);
                     Activity otherActivity = pf.createActivityFromActivityFacilityId(purpose, nextPlace.getId());
 
-//                    Coord nextCoord = scenario.getActivityFacilities().getFacilities().get(nextPlace.getId()).getCoord();
-//                    otherActivity.setCoord(nextCoord);
-
-                    otherActivity.getAttributes().putAttribute("primary_purpose",prim_purpose);
                     plan.addActivity(otherActivity);
 
-
-
-                    //store activity as next activity
-                    // if time > 30 from previous activity  (time = activ - previous activity < 1800 seconds
-                    // set coord as previous activity
                     prevDestId = destId;
                 }
 

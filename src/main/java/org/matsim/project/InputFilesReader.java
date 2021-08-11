@@ -41,8 +41,8 @@ public class InputFilesReader {
         Scenario scenario = ScenarioUtils.createScenario(ConfigUtils.createConfig());
         scenario.getConfig().global().setCoordinateSystem("EPSG:26912");
         InputFilesReader reader = new InputFilesReader(scenario);
-        String scenarioPath = "scenarios/slc_beam/general/2.5k/";
-        String outputFileName = "slc_plans_2.5k_tours.xml.gz";
+        String scenarioPath = "scenarios/slc-1k/";
+        String outputFileName = "slc_plans_1k.xml.gz";
 
         File personsFile = new File(scenarioPath + "persons.csv");
         File tripsFile = new File(scenarioPath + "trips.csv");
@@ -51,7 +51,6 @@ public class InputFilesReader {
         File householdCoordFile = new File(scenarioPath + "hhcoord.csv");
         reader.readActivitySimFiles(personsFile, tripsFile, facilitiesFile, householdsFile, householdCoordFile);
 
-        // new FacilitiesWriter(scenario.getActivityFacilities()).write(scenarioPath + "facilities.xml.gz");
         new PopulationWriter(scenario.getPopulation()).write(scenarioPath + outputFileName);
     }
 

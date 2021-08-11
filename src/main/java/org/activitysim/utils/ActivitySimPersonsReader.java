@@ -56,7 +56,7 @@ public class ActivitySimPersonsReader {
             String[] header = reader.readNext();
             Map<String, Integer> col = CSVUtils.getIndices(header,
                     new String[]{"person_id", "age", "sex",  }, // mandatory columns
-                    new String[]{"household_id", "wc_var", "modality-style"} // optional columns
+                    new String[]{"household_id"} // optional columns
             );
 
             // Read each line of the persons file
@@ -67,21 +67,15 @@ public class ActivitySimPersonsReader {
 
                 int age = Integer.parseInt(nextLine[col.get("age")]);
                 String sex = nextLine[col.get("sex")];
-                //String wc_var = nextLine[col.get("wc_var")];
                 String household_id = nextLine[col.get("household_id")];
 
-                //if (wc_var.equals("TRUE")) {
-                //    personId = Id.createPersonId("wc-" + personId);
-                //}
                 Person person = pf.createPerson(personId);
                 person.getAttributes().putAttribute("age", age);
                 person.getAttributes().putAttribute("sex", sex);
-                //person.getAttributes().putAttribute("wc_var", wc_var);
                 person.getAttributes().putAttribute("household_id", household_id);
 
                 // create an empty plan
                 person.addPlan(pf.createPlan());
-                //person.getSelectedPlan().getAttributes().putAttribute("modality-style", getModalityStyle());
                 scenario.getPopulation().addPerson(person);
             }
 
@@ -89,12 +83,6 @@ public class ActivitySimPersonsReader {
         } catch (IOException | CsvValidationException e) {
             e.printStackTrace();
         }
-    }
-
-    private Object getModalityStyle() {
-        Random rando = new Random();
-        String[] allStyles = {"class1","class2","class3","class4","class5","class6"};
-        return allStyles[rando.nextInt(allStyles.length)];
     }
 
     /**
@@ -124,10 +112,6 @@ public class ActivitySimPersonsReader {
                 Id<ActivityFacility> homeId = Id.create("h" + nextLine[col.get("household_id")], ActivityFacility.class);
 
                 Person person = scenario.getPopulation().getPersons().get(personId);
-                if (person == null) {
-                    personId = Id.createPersonId("wc-" + personId);
-                    person = scenario.getPopulation().getPersons().get(personId);
-                }
                 Plan plan = person.getPlans().get(0);
                 if (plan.getPlanElements().isEmpty()){
                     Activity homeActivity1 = pf.createActivityFromActivityFacilityId("Home", homeId);

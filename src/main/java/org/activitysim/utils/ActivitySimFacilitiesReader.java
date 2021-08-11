@@ -120,23 +120,7 @@ public class ActivitySimFacilitiesReader {
             e.printStackTrace();
         }
     }
-    /*
-    private void readCoordinates(){
-        try {
-            CSVReader reader = CSVUtils.createCSVReader(coordinateFile.toString());
-            String[] header = reader.readNext();
-            Map<String, Integer> col = CSVUtils.getIndices(header,
-                    new String[]{"household_id", "longitude", "latitude"}, // mandatory columns
 
-            );
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-    }*/
     public HashMap<String, List<Id<ActivityFacility>>> getTazFacilityMap() {
         return tazFacilityMap;
     }
