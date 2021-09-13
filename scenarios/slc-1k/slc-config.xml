@@ -31,10 +31,10 @@
 	</module>
 
 	<module name="controler">
-		<param name="outputDirectory" value="output/slc_2"/>
+		<param name="outputDirectory" value="output/slc_7"/>
 		<param name="overwriteFiles" value="deleteDirectoryIfExists"/>
 		<param name="firstIteration" value="0"/>
-		<param name="lastIteration" value="10"/>
+		<param name="lastIteration" value="25"/>
 	</module>
 
 	<module name="planCalcScore">
@@ -154,8 +154,8 @@
 		</parameterset>
 	</module>
 	<module name="subtourModeChoice">
-		<param name="chainBasedModes" value="car,bike"/>
-		<param name="modes" value="car,bike"/>
+		<param name="chainBasedModes" value="car,bike,walk,pt"/>
+		<param name="modes" value="car,bike,walk,pt"/>
 	</module>
 
 </config>
