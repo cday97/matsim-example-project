@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE population SYSTEM "http://www.matsim.org/files/dtd/population_v6.dtd">
+
+<population>
+
+
+
+<!-- ====================================================================== -->
+
+	<person id="0">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">23</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+		</attributes>
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="1">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">64</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+		</attributes>
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="2">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">45</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+		</attributes>
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="3">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">58</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+		</attributes>
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="4">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">73</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+		</attributes>
+	</person>
+
+<!-- ====================================================================== -->
+
+</population>
