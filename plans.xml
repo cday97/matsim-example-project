@@ -11,43 +11,1048 @@
 		<attributes>
 			<attribute name="age" class="java.lang.Integer">23</attribute>
 			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">H</attribute>
 		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="437510.425506871" y="4431912.581745762" end_time="08:14:53" >
+			</activity>
+		</plan>
+
 	</person>
 
 <!-- ====================================================================== -->
 
 	<person id="1">
 		<attributes>
-			<attribute name="age" class="java.lang.Integer">64</attribute>
+			<attribute name="age" class="java.lang.Integer">22</attribute>
 			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">M</attribute>
 		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="438095.0688949422" y="4433004.91209184" end_time="07:43:29" >
+			</activity>
+			<activity type="work" x="441735.17953291436" y="4439464.279764479" end_time="16:23:20" >
+			</activity>
+			<activity type="home" x="438095.0688949422" y="4433004.91209184" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="10">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">69</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="437494.01329218753" y="4431364.58783939" end_time="07:23:05" >
+			</activity>
+			<activity type="other" x="437796.23622483714" y="4430922.1253769845" end_time="08:39:43" >
+			</activity>
+			<activity type="home" x="437494.01329218753" y="4431364.58783939" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="11">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">78</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">H</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="436672.5672472357" y="4431820.516338142" end_time="08:50:09" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="12">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">38</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="438784.0091114995" y="4431861.861971733" end_time="08:41:34" >
+			</activity>
+			<activity type="other" x="439015.01267404185" y="4429390.232671518" end_time="11:40:17" >
+			</activity>
+			<activity type="other" x="436934.93389088404" y="4429472.826786261" end_time="13:26:10" >
+			</activity>
+			<activity type="other" x="438143.3672600335" y="4432063.653865817" end_time="13:52:55" >
+			</activity>
+			<activity type="home" x="438784.0091114995" y="4431861.861971733" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="13">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">78</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="437724.713595717" y="4433005.047231058" end_time="08:57:10" >
+			</activity>
+			<activity type="other" x="436548.5699303259" y="4432641.004522887" end_time="10:12:40" >
+			</activity>
+			<activity type="other" x="439979.31713320327" y="4431447.472240759" end_time="11:50:13" >
+			</activity>
+			<activity type="home" x="437724.713595717" y="4433005.047231058" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="14">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">79</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="437772.8219139552" y="4431764.284824071" end_time="07:30:16" >
+			</activity>
+			<activity type="other" x="439248.68162311544" y="4431825.0018265" end_time="08:31:55" >
+			</activity>
+			<activity type="home" x="437772.8219139552" y="4431764.284824071" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="15">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">20</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">M</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="437158.7365747454" y="4431617.075309336" end_time="07:17:22" >
+			</activity>
+			<activity type="work" x="441735.17953291436" y="4439464.279764479" end_time="17:31:07" >
+			</activity>
+			<activity type="home" x="437158.7365747454" y="4431617.075309336" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="16">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">77</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="436078.08867594006" y="4432119.139821609" end_time="08:21:47" >
+			</activity>
+			<activity type="other" x="435940.2400144614" y="4432125.3466484975" end_time="10:15:00" >
+			</activity>
+			<activity type="other" x="438081.1331644111" y="4432044.081630537" end_time="12:07:32" >
+			</activity>
+			<activity type="other" x="436894.17749030935" y="4433091.475043006" end_time="12:22:26" >
+			</activity>
+			<activity type="home" x="436078.08867594006" y="4432119.139821609" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="17">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">28</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">H</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="437585.9782701959" y="4430417.658038216" end_time="07:25:41" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="18">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">76</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">M</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="437238.74507894565" y="4432350.347565485" end_time="08:29:54" >
+			</activity>
+			<activity type="work" x="441735.17953291436" y="4439464.279764479" end_time="17:13:27" >
+			</activity>
+			<activity type="home" x="437238.74507894565" y="4432350.347565485" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="19">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">28</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="435765.51854678727" y="4430599.718173754" end_time="08:13:32" >
+			</activity>
+			<activity type="other" x="436010.3957057956" y="4431565.989293566" end_time="09:21:32" >
+			</activity>
+			<activity type="other" x="437837.7066459747" y="4433660.160237122" end_time="09:31:28" >
+			</activity>
+			<activity type="home" x="435765.51854678727" y="4430599.718173754" >
+			</activity>
+		</plan>
+
 	</person>
 
 <!-- ====================================================================== -->
 
 	<person id="2">
 		<attributes>
-			<attribute name="age" class="java.lang.Integer">45</attribute>
+			<attribute name="age" class="java.lang.Integer">53</attribute>
 			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
 		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="437621.51208611694" y="4431240.493734652" end_time="07:32:36" >
+			</activity>
+			<activity type="other" x="436626.8738085408" y="4432413.043183413" end_time="08:32:48" >
+			</activity>
+			<activity type="other" x="437807.22837663884" y="4433516.63089386" end_time="09:23:11" >
+			</activity>
+			<activity type="home" x="437621.51208611694" y="4431240.493734652" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="20">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">35</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="435726.0944720281" y="4433497.612130448" end_time="08:56:05" >
+			</activity>
+			<activity type="other" x="437833.36821374216" y="4429973.5057029" end_time="10:28:30" >
+			</activity>
+			<activity type="home" x="435726.0944720281" y="4433497.612130448" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="21">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">52</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">M</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="438949.70228561654" y="4431860.019190449" end_time="07:38:12" >
+			</activity>
+			<activity type="work" x="441735.17953291436" y="4439464.279764479" end_time="17:27:40" >
+			</activity>
+			<activity type="home" x="438949.70228561654" y="4431860.019190449" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="22">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">27</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">M</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="438727.14254915866" y="4433001.783987673" end_time="07:18:40" >
+			</activity>
+			<activity type="work" x="441735.17953291436" y="4439464.279764479" end_time="16:33:51" >
+			</activity>
+			<activity type="other" x="436989.1651013963" y="4433299.950646784" end_time="17:56:46" >
+			</activity>
+			<activity type="home" x="438727.14254915866" y="4433001.783987673" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="23">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">68</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">H</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="438280.9633789461" y="4432511.862467805" end_time="07:19:46" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="24">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">79</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="438793.20182956354" y="4433428.055707341" end_time="08:30:01" >
+			</activity>
+			<activity type="other" x="438997.9818947894" y="4430760.377620896" end_time="11:02:41" >
+			</activity>
+			<activity type="other" x="435169.40314198175" y="4431624.841920215" end_time="11:56:39" >
+			</activity>
+			<activity type="other" x="436967.75479551696" y="4433096.23612243" end_time="12:49:18" >
+			</activity>
+			<activity type="home" x="438793.20182956354" y="4433428.055707341" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="25">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">77</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="435659.3807066258" y="4432592.183293757" end_time="07:22:37" >
+			</activity>
+			<activity type="other" x="438885.16897680797" y="4432008.34764787" end_time="09:50:22" >
+			</activity>
+			<activity type="home" x="435659.3807066258" y="4432592.183293757" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="26">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">37</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="435668.0847625079" y="4432730.838251389" end_time="07:18:36" >
+			</activity>
+			<activity type="other" x="437328.478777732" y="4429461.623710896" end_time="09:58:40" >
+			</activity>
+			<activity type="other" x="438222.10820522316" y="4430639.846404705" end_time="10:08:43" >
+			</activity>
+			<activity type="home" x="435668.0847625079" y="4432730.838251389" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="27">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">36</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="437237.59661189636" y="4431434.59479051" end_time="08:34:34" >
+			</activity>
+			<activity type="other" x="436886.6723206446" y="4429327.7215846125" end_time="10:26:35" >
+			</activity>
+			<activity type="other" x="438274.62418808544" y="4430943.534504539" end_time="11:34:23" >
+			</activity>
+			<activity type="other" x="437091.3716012711" y="4432852.49305556" end_time="13:23:13" >
+			</activity>
+			<activity type="home" x="437237.59661189636" y="4431434.59479051" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="28">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">38</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">M</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="436818.99690302555" y="4430324.597898528" end_time="08:46:05" >
+			</activity>
+			<activity type="work" x="441735.17953291436" y="4439464.279764479" end_time="16:16:30" >
+			</activity>
+			<activity type="home" x="436818.99690302555" y="4430324.597898528" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="29">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">71</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="437664.4943025486" y="4430445.704781214" end_time="08:14:08" >
+			</activity>
+			<activity type="other" x="438294.45294324926" y="4431980.623347732" end_time="10:15:40" >
+			</activity>
+			<activity type="other" x="436505.124513778" y="4432163.737703632" end_time="11:01:49" >
+			</activity>
+			<activity type="other" x="435596.88727642334" y="4432117.84589723" end_time="12:41:37" >
+			</activity>
+			<activity type="home" x="437664.4943025486" y="4430445.704781214" >
+			</activity>
+		</plan>
+
 	</person>
 
 <!-- ====================================================================== -->
 
 	<person id="3">
 		<attributes>
-			<attribute name="age" class="java.lang.Integer">58</attribute>
+			<attribute name="age" class="java.lang.Integer">55</attribute>
 			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
 		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="436867.71749026165" y="4431666.979262699" end_time="07:52:38" >
+			</activity>
+			<activity type="other" x="436230.44287002465" y="4431847.198119703" end_time="08:59:37" >
+			</activity>
+			<activity type="other" x="435610.17966001236" y="4432324.39170901" end_time="10:34:56" >
+			</activity>
+			<activity type="other" x="438823.3530760063" y="4430150.607069516" end_time="10:59:09" >
+			</activity>
+			<activity type="home" x="436867.71749026165" y="4431666.979262699" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="30">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">77</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">M</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="436738.3860995423" y="4431948.845681617" end_time="08:57:34" >
+			</activity>
+			<activity type="work" x="441735.17953291436" y="4439464.279764479" end_time="16:28:36" >
+			</activity>
+			<activity type="other" x="437234.58104349073" y="4431677.230357727" end_time="17:28:13" >
+			</activity>
+			<activity type="home" x="436738.3860995423" y="4431948.845681617" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="31">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">55</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="436795.89785757934" y="4433001.330514377" end_time="08:03:25" >
+			</activity>
+			<activity type="other" x="436662.91586843785" y="4430383.683931062" end_time="10:28:07" >
+			</activity>
+			<activity type="other" x="436583.5772757797" y="4431155.867882523" end_time="11:48:28" >
+			</activity>
+			<activity type="other" x="436231.823569905" y="4432237.383540539" end_time="13:31:47" >
+			</activity>
+			<activity type="home" x="436795.89785757934" y="4433001.330514377" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="32">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">62</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">M</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="435865.2050337149" y="4431598.077785253" end_time="08:01:18" >
+			</activity>
+			<activity type="work" x="441735.17953291436" y="4439464.279764479" end_time="17:32:23" >
+			</activity>
+			<activity type="other" x="436940.30084568146" y="4432646.545582458" end_time="19:28:22" >
+			</activity>
+			<activity type="home" x="435865.2050337149" y="4431598.077785253" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="33">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">48</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">M</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="439179.6553080595" y="4432701.149350627" end_time="08:44:00" >
+			</activity>
+			<activity type="work" x="441735.17953291436" y="4439464.279764479" end_time="17:21:50" >
+			</activity>
+			<activity type="other" x="435986.48469192494" y="4432223.543370145" end_time="17:58:51" >
+			</activity>
+			<activity type="home" x="439179.6553080595" y="4432701.149350627" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="34">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">39</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">M</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="438168.60824652796" y="4433522.4922525" end_time="07:03:07" >
+			</activity>
+			<activity type="work" x="441735.17953291436" y="4439464.279764479" end_time="17:11:40" >
+			</activity>
+			<activity type="other" x="436763.8538700121" y="4432348.037688908" end_time="19:10:32" >
+			</activity>
+			<activity type="home" x="438168.60824652796" y="4433522.4922525" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="35">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">28</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="435893.0519396627" y="4431345.032053653" end_time="08:40:31" >
+			</activity>
+			<activity type="other" x="436677.53690951556" y="4432837.652596256" end_time="10:04:15" >
+			</activity>
+			<activity type="other" x="436294.9269268958" y="4430592.307408553" end_time="11:20:50" >
+			</activity>
+			<activity type="home" x="435893.0519396627" y="4431345.032053653" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="36">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">72</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">M</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="434623.52462928" y="4429202.237517526" end_time="07:04:16" >
+			</activity>
+			<activity type="work" x="441735.17953291436" y="4439464.279764479" end_time="17:57:39" >
+			</activity>
+			<activity type="home" x="434623.52462928" y="4429202.237517526" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="37">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">65</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">M</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="438167.4508612787" y="4430954.785844185" end_time="07:40:18" >
+			</activity>
+			<activity type="work" x="441735.17953291436" y="4439464.279764479" end_time="16:51:48" >
+			</activity>
+			<activity type="other" x="436856.2198784746" y="4430110.299001416" end_time="17:26:19" >
+			</activity>
+			<activity type="home" x="438167.4508612787" y="4430954.785844185" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="38">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">70</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="439530.6316102072" y="4432242.289192767" end_time="07:59:34" >
+			</activity>
+			<activity type="other" x="437783.14113404864" y="4429734.699237041" end_time="09:06:02" >
+			</activity>
+			<activity type="other" x="436454.47109684255" y="4431593.911156705" end_time="10:05:18" >
+			</activity>
+			<activity type="home" x="439530.6316102072" y="4432242.289192767" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="39">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">63</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="435174.9075011203" y="4430682.850800414" end_time="07:16:52" >
+			</activity>
+			<activity type="other" x="437775.19685811363" y="4430439.554646425" end_time="08:33:38" >
+			</activity>
+			<activity type="other" x="437932.4925199412" y="4431537.845223893" end_time="09:09:33" >
+			</activity>
+			<activity type="other" x="437925.19490777416" y="4429911.560395537" end_time="09:50:40" >
+			</activity>
+			<activity type="home" x="435174.9075011203" y="4430682.850800414" >
+			</activity>
+		</plan>
+
 	</person>
 
 <!-- ====================================================================== -->
 
 	<person id="4">
 		<attributes>
-			<attribute name="age" class="java.lang.Integer">73</attribute>
-			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="age" class="java.lang.Integer">33</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">M</attribute>
 		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="434748.311932903" y="4429005.853258939" end_time="08:03:23" >
+			</activity>
+			<activity type="work" x="441735.17953291436" y="4439464.279764479" end_time="17:39:02" >
+			</activity>
+			<activity type="home" x="434748.311932903" y="4429005.853258939" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="40">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">65</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="436572.7717992098" y="4431963.17652511" end_time="08:56:20" >
+			</activity>
+			<activity type="other" x="435326.89336694457" y="4431138.098492604" end_time="11:07:42" >
+			</activity>
+			<activity type="other" x="437845.03276779887" y="4431886.668863052" end_time="12:46:48" >
+			</activity>
+			<activity type="home" x="436572.7717992098" y="4431963.17652511" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="41">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">51</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="437237.66736640874" y="4433170.663487923" end_time="07:13:23" >
+			</activity>
+			<activity type="other" x="435626.18835382967" y="4432523.203756805" end_time="08:30:29" >
+			</activity>
+			<activity type="home" x="437237.66736640874" y="4433170.663487923" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="42">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">35</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">H</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="438385.0695292375" y="4432181.989905464" end_time="08:34:31" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="43">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">61</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="438730.8287334607" y="4430576.250097431" end_time="08:27:28" >
+			</activity>
+			<activity type="other" x="436608.3422769477" y="4432057.130236102" end_time="10:22:28" >
+			</activity>
+			<activity type="other" x="437645.28114890784" y="4432764.5215630755" end_time="11:33:48" >
+			</activity>
+			<activity type="home" x="438730.8287334607" y="4430576.250097431" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="44">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">24</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="438017.6262690874" y="4429647.875304073" end_time="07:44:06" >
+			</activity>
+			<activity type="other" x="437656.01130561787" y="4430799.462980666" end_time="10:14:23" >
+			</activity>
+			<activity type="home" x="438017.6262690874" y="4429647.875304073" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="45">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">29</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">M</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="436014.929405845" y="4432900.935403506" end_time="08:15:03" >
+			</activity>
+			<activity type="work" x="441735.17953291436" y="4439464.279764479" end_time="17:11:39" >
+			</activity>
+			<activity type="home" x="436014.929405845" y="4432900.935403506" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="46">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">58</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">M</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="439240.5127670837" y="4431687.88043891" end_time="07:32:29" >
+			</activity>
+			<activity type="work" x="441735.17953291436" y="4439464.279764479" end_time="16:33:43" >
+			</activity>
+			<activity type="other" x="437088.24765979365" y="4433319.169820969" end_time="17:50:40" >
+			</activity>
+			<activity type="home" x="439240.5127670837" y="4431687.88043891" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="47">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">61</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="437314.54145269765" y="4432194.123970498" end_time="08:16:31" >
+			</activity>
+			<activity type="other" x="436639.5390093018" y="4430365.842576385" end_time="10:22:00" >
+			</activity>
+			<activity type="home" x="437314.54145269765" y="4432194.123970498" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="48">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">27</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="437356.7743753603" y="4432932.555845697" end_time="08:49:10" >
+			</activity>
+			<activity type="other" x="434596.5988610562" y="4432065.283247072" end_time="09:57:49" >
+			</activity>
+			<activity type="other" x="437908.0535521327" y="4430784.460654337" end_time="10:42:41" >
+			</activity>
+			<activity type="other" x="438439.93777183216" y="4432906.517569646" end_time="12:18:14" >
+			</activity>
+			<activity type="home" x="437356.7743753603" y="4432932.555845697" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="49">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">62</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">M</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="437299.05631461926" y="4431626.549154849" end_time="07:25:23" >
+			</activity>
+			<activity type="work" x="441735.17953291436" y="4439464.279764479" end_time="17:36:34" >
+			</activity>
+			<activity type="home" x="437299.05631461926" y="4431626.549154849" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="5">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">29</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">true</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">M</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="436453.7792625954" y="4430748.8171359515" end_time="07:45:59" >
+			</activity>
+			<activity type="work" x="441735.17953291436" y="4439464.279764479" end_time="17:47:03" >
+			</activity>
+			<activity type="other" x="435956.3866518667" y="4435066.874910542" end_time="19:12:43" >
+			</activity>
+			<activity type="home" x="436453.7792625954" y="4430748.8171359515" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="6">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">69</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="435119.71323955536" y="4432595.95323198" end_time="08:27:26" >
+			</activity>
+			<activity type="other" x="436630.0467537954" y="4430843.706687916" end_time="09:51:56" >
+			</activity>
+			<activity type="other" x="436868.66573950683" y="4430717.963719684" end_time="10:45:44" >
+			</activity>
+			<activity type="home" x="435119.71323955536" y="4432595.95323198" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="7">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">63</attribute>
+			<attribute name="gender" class="java.lang.String">female</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">H</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="436370.088449468" y="4432864.183089312" end_time="08:29:32" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="8">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">72</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="437557.14975680056" y="4430703.029095145" end_time="08:02:53" >
+			</activity>
+			<activity type="other" x="438448.29250879656" y="4432497.549345123" end_time="10:36:16" >
+			</activity>
+			<activity type="home" x="437557.14975680056" y="4430703.029095145" >
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="9">
+		<attributes>
+			<attribute name="age" class="java.lang.Integer">27</attribute>
+			<attribute name="gender" class="java.lang.String">male</attribute>
+			<attribute name="isWorker" class="java.lang.Boolean">false</attribute>
+			<attribute name="typeOfPlan" class="java.lang.String">NM</attribute>
+		</attributes>
+		<plan selected="yes">
+			<activity type="home" x="437874.3991256358" y="4431574.594006441" end_time="07:23:20" >
+			</activity>
+			<activity type="other" x="436306.44060087454" y="4429965.853021845" end_time="08:37:50" >
+			</activity>
+			<activity type="other" x="435543.8706933559" y="4430196.304511958" end_time="10:25:04" >
+			</activity>
+			<activity type="other" x="438116.1037164222" y="4431457.404992321" end_time="10:35:16" >
+			</activity>
+			<activity type="home" x="437874.3991256358" y="4431574.594006441" >
+			</activity>
+		</plan>
+
 	</person>
 
 <!-- ====================================================================== -->

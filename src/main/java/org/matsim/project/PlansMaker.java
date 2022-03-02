@@ -60,7 +60,7 @@ public class PlansMaker {
         String outFile = args[1];
 
         PlansMaker pm = new PlansMaker(crs);
-        pm.makePlans(5);
+        pm.makePlans(50);
         pm.writePlans(outFile);
     }
 }
