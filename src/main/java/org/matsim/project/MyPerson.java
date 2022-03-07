@@ -138,7 +138,7 @@ public class MyPerson {
 
     private Integer makeAge(Random r){
         Integer top = r.nextInt(60);
-        return top + 20;
+        return top + 16;
     }
 
     private Boolean setWorker(Random r, Integer age) {
