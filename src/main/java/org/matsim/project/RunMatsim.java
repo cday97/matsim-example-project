@@ -30,7 +30,7 @@ import org.matsim.core.controler.OutputDirectoryHierarchy;
 import org.matsim.core.controler.OutputDirectoryHierarchy.OverwriteFileSetting;
 import org.matsim.core.scenario.ScenarioUtils;
 import org.matsim.vis.otfvis.OTFVisConfigGroup;
-
+import org.matsim.run.NetworkCleaner;
 /**
  * @author nagel
  *
@@ -68,6 +68,7 @@ public class RunMatsim{
 
 		
 		// ---
+		//new NetworkCleaner().run("scenarios/payson/highway_network_payson.xml.gz","scenarios/payson/hnp2.xml.gz");
 		controler.run();
 	}
 
