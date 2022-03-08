@@ -4,10 +4,7 @@ import org.apache.log4j.Logger;
 import org.matsim.api.core.v01.Coord;
 import org.matsim.api.core.v01.Id;
 import org.matsim.api.core.v01.Scenario;
-import org.matsim.api.core.v01.population.Activity;
-import org.matsim.api.core.v01.population.Person;
-import org.matsim.api.core.v01.population.Plan;
-import org.matsim.api.core.v01.population.PopulationFactory;
+import org.matsim.api.core.v01.population.*;
 import org.matsim.core.utils.geometry.CoordinateTransformation;
 
 import java.util.Random;
@@ -81,13 +78,15 @@ public class MyPerson {
         if(dap.equals("H")){
 
         }
-
         // if dop is mandatory, then go to work and maybe one other place
         else if(dap.equals("M")){
+            plan.addLeg(pf.createLeg("car"));
+
             Activity work = pf.createActivityFromCoord("work", getPaysonLocation("work", r));
             Integer workEndTime = r.nextInt(2*3600) + 16*3600; //generate random work time between 4:00pm and 6:00pm
             work.setEndTime(workEndTime); // make random
             plan.addActivity(work);
+            plan.addLeg(pf.createLeg("car"));
 
             Integer numOfActs = r.nextInt(2);
             if (numOfActs == 0){
@@ -100,6 +99,7 @@ public class MyPerson {
                 Integer otherEndTime = r.nextInt(2*3600) + workEndTime;
                 other.setEndTime(otherEndTime);
                 plan.addActivity(other);
+                plan.addLeg(pf.createLeg("car"));
 
                 Activity homeEnd = pf.createActivityFromCoord("home", homeLocation);
                 plan.addActivity(homeEnd);
@@ -108,10 +108,13 @@ public class MyPerson {
 
         // if dap is non mandatory then go to 1-3 places
         else if(dap.equals("NM")){
+            plan.addLeg(pf.createLeg("car"));
+
             Activity other1 = pf.createActivityFromCoord("other", getPaysonLocation("other",r));
             Integer other1EndTime = r.nextInt(2*3600) + homeStartTime + 3600;
             other1.setEndTime(other1EndTime);
             plan.addActivity(other1);
+            plan.addLeg(pf.createLeg("car"));
 
             Integer numOfActs = r.nextInt(3) + 1;
             if (numOfActs == 1) {
@@ -122,11 +125,13 @@ public class MyPerson {
                 Integer other2EndTime = r.nextInt(2*3600) + other1EndTime;
                 other2.setEndTime(other2EndTime);
                 plan.addActivity(other2);
+                plan.addLeg(pf.createLeg("car"));
                 if(numOfActs == 3){
                     Activity other3 = pf.createActivityFromCoord("other", getPaysonLocation("other",r));
                     Integer other3EndTime = r.nextInt(2*3600) + other2EndTime;
                     other3.setEndTime(other3EndTime);
                     plan.addActivity(other3);
+                    plan.addLeg(pf.createLeg("car"));
                 }
                 Activity homeEnd = pf.createActivityFromCoord("home", homeLocation);
                 plan.addActivity(homeEnd);
