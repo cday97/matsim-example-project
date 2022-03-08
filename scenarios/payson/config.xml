@@ -8,15 +8,15 @@
 	</module>
 
 	<module name="network">
-		<param name="inputNetworkFile" value="highway_network_payson.xml.gz" />
+		<param name="inputNetworkFile" value="highway_network_clean.xml.gz" />
 	</module>
 
 	<module name="plans">
-		<param name="inputPlansFile" value="plans_current.xml" />
+		<param name="inputPlansFile" value="plans_future.xml" />
 	</module>
 
 	<module name="controler">
-		<param name="outputDirectory" value="./output/current_scenario" />
+		<param name="outputDirectory" value="./output/future_scenario_300" />
 		<param name="firstIteration" value="0" />
 		<param name="lastIteration" value="300" />
 	</module>
