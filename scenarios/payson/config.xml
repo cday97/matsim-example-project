@@ -12,13 +12,13 @@
 	</module>
 
 	<module name="plans">
-		<param name="inputPlansFile" value="plans.xml" />
+		<param name="inputPlansFile" value="plans_current.xml" />
 	</module>
 
 	<module name="controler">
-		<param name="outputDirectory" value="./output" />
+		<param name="outputDirectory" value="./output/current_scenario" />
 		<param name="firstIteration" value="0" />
-		<param name="lastIteration" value="10" />
+		<param name="lastIteration" value="300" />
 	</module>
 
 	<module name="qsim">

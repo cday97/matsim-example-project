@@ -60,7 +60,8 @@ public class PlansMaker {
         String outFile = args[1];
 
         PlansMaker pm = new PlansMaker(crs);
-        pm.makePlans(50);
+        pm.makePlans( 19892); // current scenario
+        //pm.makePlans(47446); // future scenario
         pm.writePlans(outFile);
     }
 }
