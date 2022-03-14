@@ -16,9 +16,9 @@
 	</module>
 
 	<module name="controler">
-		<param name="outputDirectory" value="./output/future_scenario_300" />
+		<param name="outputDirectory" value="./output/future_car" />
 		<param name="firstIteration" value="0" />
-		<param name="lastIteration" value="300" />
+		<param name="lastIteration" value="200" />
 	</module>
 
 	<module name="qsim">
@@ -83,8 +83,8 @@
 		</parameterset>
 	</module>
 	<module name="subtourModeChoice">
-		<param name="chainBasedModes" value="car,bike,walk,pt"/>
-		<param name="modes" value="car,bike,walk,pt"/>
+		<param name="chainBasedModes" value="car"/>
+		<param name="modes" value="car"/>
 	</module>
 
 </config>

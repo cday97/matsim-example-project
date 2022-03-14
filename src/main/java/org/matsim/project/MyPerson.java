@@ -71,15 +71,15 @@ public class MyPerson {
         Plan plan = pf.createPlan();
         Activity homeStart = pf.createActivityFromCoord("home", homeLocation);
         Integer homeStartTime = r.nextInt(2*3600) + 7*3600; // have people leave between 7 and 9 am
-        homeStart.setEndTime(homeStartTime);
         plan.addActivity(homeStart);
 
         //if dap is home, then stay there all day
         if(dap.equals("H")){
-
+            homeStart.setEndTime(homeStartTime);
         }
         // if dop is mandatory, then go to work and maybe one other place
         else if(dap.equals("M")){
+            homeStart.setEndTime(homeStartTime);
             plan.addLeg(pf.createLeg("car"));
 
             Activity work = pf.createActivityFromCoord("work", getPaysonLocation("work", r));
@@ -96,7 +96,7 @@ public class MyPerson {
             } else {
                 // worker goes to another before going home location
                 Activity other = pf.createActivityFromCoord("other", getPaysonLocation("other",r));
-                Integer otherEndTime = r.nextInt(2*3600) + workEndTime;
+                Integer otherEndTime = r.nextInt(4*3600) + workEndTime;
                 other.setEndTime(otherEndTime);
                 plan.addActivity(other);
                 plan.addLeg(pf.createLeg("car"));
@@ -108,10 +108,12 @@ public class MyPerson {
 
         // if dap is non mandatory then go to 1-3 places
         else if(dap.equals("NM")){
+            Integer newHomeStart = r.nextInt(3*3600)+15*3600;
+            homeStart.setEndTime(newHomeStart);
             plan.addLeg(pf.createLeg("car"));
 
             Activity other1 = pf.createActivityFromCoord("other", getPaysonLocation("other",r));
-            Integer other1EndTime = r.nextInt(2*3600) + homeStartTime + 3600;
+            Integer other1EndTime = r.nextInt(2*3600) + newHomeStart;
             other1.setEndTime(other1EndTime);
             plan.addActivity(other1);
             plan.addLeg(pf.createLeg("car"));
@@ -121,14 +123,16 @@ public class MyPerson {
                 Activity homeEnd = pf.createActivityFromCoord("home", homeLocation);
                 plan.addActivity(homeEnd);
             } else{
+                Integer timeLeftInDay =  24*3600 - other1EndTime;
                 Activity other2 = pf.createActivityFromCoord("other", getPaysonLocation("other",r));
-                Integer other2EndTime = r.nextInt(2*3600) + other1EndTime;
+                Integer other2EndTime = r.nextInt(timeLeftInDay - 2*3600) + other1EndTime;
                 other2.setEndTime(other2EndTime);
                 plan.addActivity(other2);
                 plan.addLeg(pf.createLeg("car"));
                 if(numOfActs == 3){
+                    Integer timeLeftInDay2 = 24*3600 - other2EndTime;
                     Activity other3 = pf.createActivityFromCoord("other", getPaysonLocation("other",r));
-                    Integer other3EndTime = r.nextInt(2*3600) + other2EndTime;
+                    Integer other3EndTime = r.nextInt(timeLeftInDay2) + other2EndTime;
                     other3.setEndTime(other3EndTime);
                     plan.addActivity(other3);
                     plan.addLeg(pf.createLeg("car"));
@@ -142,7 +146,7 @@ public class MyPerson {
     }
 
     private Integer makeAge(Random r){
-        Integer top = r.nextInt(60);
+        Integer top = r.nextInt(64); // people are from 16 to 80 yrs old
         return top + 16;
     }
 

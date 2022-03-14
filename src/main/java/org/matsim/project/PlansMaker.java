@@ -62,6 +62,7 @@ public class PlansMaker {
         PlansMaker pm = new PlansMaker(crs);
         //pm.makePlans( 19892); // current scenario
         pm.makePlans(47446); // future scenario
+        //pm.makePlans(10000);
         pm.writePlans(outFile);
     }
 }
